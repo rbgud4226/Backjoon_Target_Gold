@@ -26,7 +26,7 @@ public class b4153 {
 			Arrays.sort(arr);
 			if(arr[2] * arr[2] == (arr[1] * arr[1]) + (arr[0] * arr[0])){
 				System.out.println("right");
-			}
+			} 
 			else {
 				System.out.println("wrong");
 			}
