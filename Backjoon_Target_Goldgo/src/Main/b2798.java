@@ -17,7 +17,7 @@ public class b2798 {
 		int sum = 0;
 		int result = 0;
 		int[] arr = new int[num];
-
+ 
 		st = new StringTokenizer(br.readLine());
 		for (int i = 0; i < num; i++) {
 			arr[i] = Integer.parseInt(st.nextToken());
