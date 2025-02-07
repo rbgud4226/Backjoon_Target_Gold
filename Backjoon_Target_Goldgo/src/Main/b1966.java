@@ -27,7 +27,7 @@ public class b1966 {
 				int importantindex = Integer.parseInt(st.nextToken());
 				qu.offer(new int[] { importantindex, j });
 			}
-
+ 
 			while (!qu.isEmpty()) {
 				int[] first = qu.peek();
 				Boolean checkfirst = true;
