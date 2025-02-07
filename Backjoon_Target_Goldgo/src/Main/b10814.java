@@ -21,7 +21,7 @@ public class b10814 {
 			String name = st.nextToken();
 				sb[age].append(age + " " + name + "\n");
 		}
-
+ 
 		for (int j = 0; j < 201; j++) {
 			if (sb.length > 0) {
 				System.out.print(sb[j]);
