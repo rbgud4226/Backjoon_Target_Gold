@@ -12,9 +12,11 @@ public class b10814 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int num = Integer.parseInt(br.readLine());
 		StringBuilder[] sb = new StringBuilder[201];
-		for (int i = 0; i < 201; i++) {
+		
+		for (int i = 0; i < 201; i++) {  //기본적으로 null 상태이므로 초기화가 필요함!!
 			sb[i] = new StringBuilder();
 		}
+		
 		for (int i = 0; i < num; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			int age = Integer.parseInt(st.nextToken());
