@@ -26,7 +26,7 @@ public class b1620 {
 		}
 	
 		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < m; i++) {
+		for (int i = 0; i < m; i++) { 
 			String s = br.readLine();
 			if(listString.containsKey(s)) {
 				sb.append(listString.get(s)).append("\n");
