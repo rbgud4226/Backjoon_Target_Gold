@@ -20,8 +20,8 @@ public class b6064 {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			m = Integer.parseInt(st.nextToken());
 			n = Integer.parseInt(st.nextToken());
-			mx = Integer.parseInt(st.nextToken()) - 1;
-			nx = Integer.parseInt(st.nextToken()) - 1;
+			mx = Integer.parseInt(st.nextToken()) - 1; // m과 mx의 값이 같으면 나머지가 0
+			nx = Integer.parseInt(st.nextToken()) - 1; // n과 nx의 값이 같으면 나머지가 0
 			boolean check = false;
 
 			for(int j=mx; j<= m * n; j+=m) {
