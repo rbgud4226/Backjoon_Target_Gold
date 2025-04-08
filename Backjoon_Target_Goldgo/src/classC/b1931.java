@@ -38,7 +38,7 @@ public class b1931 {
 				endtime = list[i][1];
 				count++;
 			}
-		}
+		} 
 
 		System.out.println(count);
 
