@@ -28,7 +28,7 @@ public class b1931 {
 					return o1[0] - o2[0];
 				}
 				return o1[1] - o2[1];
-			}
+			} 
 		});
 		
 		int count = 0;
