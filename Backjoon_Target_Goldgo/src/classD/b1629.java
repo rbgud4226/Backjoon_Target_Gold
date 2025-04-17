@@ -16,11 +16,11 @@ public class b1629 {
 		int b = Integer.parseInt(st.nextToken());
 		int c = Integer.parseInt(st.nextToken());
 
-		System.out.println(check(a, b, c));
+		System.out.println(check(a,b,c));
 	}
 
 	public static long check(long a, long b, long c) {
-		if (b == 1) { 
+		if (b == 1) {
 			return a % c;
 		} else {
 			long devidecheck = check(a, b / 2, c);
