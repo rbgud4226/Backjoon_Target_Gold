@@ -20,7 +20,7 @@ public class b1629 {
 	}
 
 	public static long check(long a, long b, long c) {
-		if (b == 1) {
+		if (b == 1) { 
 			return a % c;
 		} else {
 			long devidecheck = check(a, b / 2, c);
